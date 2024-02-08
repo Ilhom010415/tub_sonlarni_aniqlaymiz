@@ -15,12 +15,16 @@ sonlar = []
 print(f"{son} dan {max_qiymat} gacha bo`lgan tub sonlar.\n({son} va {max_qiymat} kirmaydi)!")
 if son < 2 and max_qiymat > 2:
     print(2)
+    sonlar.append(2)
 if son < 3 and max_qiymat > 3:
     print(3)
+    sonlar.append(3)
 if son < 5 and max_qiymat > 5:
     print(5)
+    sonlar.append(5)
 if son < 7 and max_qiymat > 7:
     print(7)
+    sonlar.append(7)
 while son<max_qiymat:
     son += 1
     if son % son != 0:
